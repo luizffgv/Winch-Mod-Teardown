@@ -1,21 +1,21 @@
-#include "winch.lua"
+#include "winchtool.lua"
 
 ---Initializes the mod
 function init()
-    Winch:Init()
+    WinchTool:Init()
 end
 
 ---@param dt number
 function tick(dt)
-    Winch:Tick(dt)
+    WinchTool:Tick(dt)
 end
 
 ---@param dt number
 function update(dt)
-    Winch:Update(dt)
+    WinchTool:Update(dt)
 end
 
 ---@param dt number
 function draw(dt)
-    Winch:Draw(dt)
+    WinchTool:Draw(dt)
 end

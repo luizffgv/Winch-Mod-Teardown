@@ -1,4 +1,4 @@
 name = Winch
 author = luizffgv
-description = [noupload]A winch that pulls objects toward each other.
+description = [noupload]Shrinkable ropes!
 tags = Tool

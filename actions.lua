@@ -1,4 +1,10 @@
-Actions = {}
+---@alias action {id: action_id, data: any}
+
+---@class Actions
+Actions = {
+    ---@type action[]
+    _queue = {}
+}
 
 ---@enum action_id
 Actions.IDS = {
@@ -7,11 +13,6 @@ Actions.IDS = {
     SHRINK = 3,
     DELETE = 4
 }
-
----@alias action {id: action_id, data: any}
-
----@type action[]
-Actions._queue = {}
 
 
 ---Enqueues an action
