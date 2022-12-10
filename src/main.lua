@@ -1,8 +1,13 @@
-#include "winchtool.lua"
+_include "WinchTool"
+
+function LoadModules()
+    Load "WinchTool"
+    WinchTool:Init()
+end
 
 ---Initializes the mod
 function init()
-    WinchTool:Init()
+    LoadModules()
 end
 
 ---@param dt number
@@ -18,4 +23,10 @@ end
 ---@param dt number
 function draw(dt)
     WinchTool:Draw(dt)
+end
+
+function handleCommand(command)
+    if command == "quickload" then
+        LoadModules()
+    end
 end

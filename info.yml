@@ -1,0 +1,7 @@
+name: Winch
+author: luizffgv
+description: Shrinkable ropes!
+tags: [Tool]
+id: 2870726379
+
+entry points: ["main"]

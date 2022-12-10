@@ -1,4 +1,0 @@
-name = Winch
-author = luizffgv
-description = [noupload]Shrinkable ropes!
-tags = Tool
